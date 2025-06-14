@@ -21,12 +21,11 @@ mongoose.connect('mongodb://localhost:27017/mini-task-manager', {
     console.error('Database connection error:', err);
 });
 
-// Start the server
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
 
-localStorage = window.localStorage
+localStorage = window.localStorage;
 
 // check the app for the testing purpose 
 
